@@ -1,22 +1,22 @@
 {
-	"name": "gauzy-desktop-timer",
-	"productName": "gauzy-desktop-timer",
+	"name": "forked-gauzy-desktop-timer",
+	"productName": "forked-gauzy-desktop-timer",
 	"version": "0.1.0",
 	"description": "Gauzy Desktop Timer",
 	"license": "AGPL-3.0",
 	"homepage": "https://gauzy.co",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ever-co/ever-gauzy.git"
+		"url": "https://github.com/adkif/ever-gauzy.git"
 	},
 	"bugs": {
-		"url": "https://github.com/ever-co/ever-gauzy/issues"
+		"url": "https://github.com/adkif/ever-gauzy/issues"
 	},
 	"private": true,
 	"author": {
-		"name": "Ever Co. LTD",
-		"email": "ever@ever.co",
-		"url": "https://ever.co"
+		"name": "Adkif Dev",
+		"email": "adolphe@ever.tech",
+		"url": "https://ever.tech"
 	},
 	"main": "index.js",
 	"workspaces": {
@@ -27,7 +27,7 @@
 		]
 	},
 	"build": {
-		"appId": "com.ever.gauzydesktoptimer",
+		"appId": "com.ever.forkedgauzydesktoptimer",
 		"artifactName": "${name}-${version}.${ext}",
 		"productName": "Gauzy Desktop Timer",
 		"copyright": "Copyright © 2019-Present. Ever Co. LTD",
@@ -79,7 +79,7 @@
 			}
 		},
 		"win": {
-			"publisherName": "Ever",
+			"publisherName": "Adkif",
 			"target": [
 				{
 					"target": "nsis",
@@ -98,7 +98,7 @@
 				"deb",
 				"tar.gz"
 			],
-			"executableName": "gauzy-desktop-timer",
+			"executableName": "forked-gauzy-desktop-timer",
 			"artifactName": "${name}-${version}.${ext}",
 			"synopsis": "Desktop",
 			"category": "Development"
