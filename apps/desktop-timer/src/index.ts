@@ -56,7 +56,7 @@ log.catchErrors({
 require('module').globalPaths.push(path.join(__dirname, 'node_modules'));
 require('sqlite3');
 
-app.setName('forked-gauzy-desktop-timer');
+app.setName('forked-timer');
 
 console.log('Node Modules Path', path.join(__dirname, 'node_modules'));
 
