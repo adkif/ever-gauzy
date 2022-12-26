@@ -2,7 +2,7 @@
 	"name": "forked-gauzy-desktop-timer",
 	"productName": "forked-gauzy-desktop-timer",
 	"version": "0.1.0",
-	"description": "Gauzy Desktop Timer",
+	"description": "Forked Gauzy Desktop Timer",
 	"license": "AGPL-3.0",
 	"homepage": "https://gauzy.co",
 	"repository": {
@@ -29,11 +29,11 @@
 	"build": {
 		"appId": "com.ever.forkedgauzydesktoptimer",
 		"artifactName": "${name}-${version}.${ext}",
-		"productName": "Gauzy Desktop Timer",
+		"productName": "Forked Gauzy Desktop Timer",
 		"copyright": "Copyright © 2019-Present. Ever Co. LTD",
 		"afterSign": "tools/notarize.js",
 		"dmg": {
-			"sign": false
+			"sign": false 
 		},
 		"asar": true,
 		"npmRebuild": true,
