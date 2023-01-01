@@ -63,10 +63,7 @@
 		"mac": {
 			"category": "public.app-category.developer-tools",
 			"icon": "icon.png",
-			"target": [
-				"zip",
-				"dmg"
-			],
+			"target": ["dmg"],
 			"asarUnpack": "**/*.node",
 			"artifactName": "${name}-${version}.${ext}",
 			"hardenedRuntime": true,
