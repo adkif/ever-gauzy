@@ -4,6 +4,7 @@
 
 import { FileStorageProviderEnum } from '@gauzy/contracts';
 import {
+	IAppIntegrationConfig,
 	IAuth0Config,
 	IAWSConfig,
 	IFacebookConfig,
@@ -80,6 +81,11 @@ export interface IEnvironment {
 	EMAIL_CONFIRMATION_URL?: string;
 
 	/**
+	 * Password Less Authentication Configuration
+	 */
+	AUTHENTICATION_CODE_EXPIRATION_TIME?: number;
+
+	/**
 	 * Throttler (Rate Limiting) Options
 	 */
 	THROTTLE_TTL?: number;
@@ -123,6 +129,11 @@ export interface IEnvironment {
 	defaultCurrency: string;
 
 	unleashConfig?: IUnleashConfig;
+
+	/**
+	 * Email Template Config
+	 */
+	appIntegrationConfig?: IAppIntegrationConfig;
 
 	demo: boolean;
 	demoCredentialConfig?: IDemoCredential;
